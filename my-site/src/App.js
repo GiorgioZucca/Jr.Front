@@ -1,17 +1,16 @@
 import './App.css';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import Landing from './components/Landing';
-import Header from './components/Header';
 
 function App() {
   return (
     <Router>
       <div>
-        <Header />
+        <Link to="/">Landing</Link>
+      </div>
         <Routes>
           <Route path="/" element={<Landing/>} />
         </Routes>
-      </div>
     </Router>
   );
 }
