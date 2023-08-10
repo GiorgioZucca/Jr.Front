@@ -1,0 +1,43 @@
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #B7ADD9;
+  }
+  
+  .header-branding {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .header-logo {
+    width: 50px;  /* Adjust based on your actual logo size */
+    height: 50px;
+  }
+  
+  .header-title {
+    color: #fff;
+    margin: 0;
+  }
+  
+  .header-nav {
+    display: flex;
+    justify-content: center; /* This will position the links more centrally */
+    align-items: center;
+    flex-grow: 1; /* This makes the nav container take up available space */
+    gap: 100px; /* Increased gap between links even more */
+  }
+  
+  .nav-link {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+    padding: 5px 15px; /* Increased horizontal padding to space out links more */
+  }
+  
+  .nav-link:hover {
+    color: white;
+  
+  }
