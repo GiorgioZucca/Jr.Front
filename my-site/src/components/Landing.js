@@ -3,8 +3,11 @@ import Banner from './Banner';
 
 function Landing() {
   return (
-    <div className="App">
+    <div className="Landing">
       <Banner/>
+      <About/>
+      <Card/>
+      <Espa/>
     </div>
   );
 }
